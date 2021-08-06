@@ -119,6 +119,10 @@ class Zivilo:
             slovarji = json.load(datoteka)
             for slovar in slovarji:
                 cls.iz_slovarja(slovar)
+    @classmethod
+    def izpisi_vsa(cls):
+        for zivilo in Zivilo.zivila:
+            print(zivilo)
 
 
 Zivilo.nalozi_iz_datoteke()
