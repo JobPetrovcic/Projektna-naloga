@@ -34,7 +34,7 @@ tip_zivila={
     "zamrznjen izdelek" : 6 * 30,
     "ostalo": NI_DEFINIRANO,
 }
-
+#Zivilo je podatkovna baza. Hrani imena zivil v staticni spremenljivki "Zivilo.zivila" . V bazi je za vsako zivilo nekaj kljucnih besed po kateri prepoznamo. Npr. za pšenično moko sta potrebni besedi "pše" in "moka". Namreč na računih je pogosto prisotno krajšanje besed, saj je prostor omejen. Potrebno je previdno izbiranje krajših ključnih besed, saj obstaja možnost napačnega identificiranja živil iz niza (iz računa)
 class Zivilo:
     zivila=[]
 
@@ -93,16 +93,16 @@ class Zivilo:
         else:
             raise ValueError("Obdelovan podatek ni niz pri izvajanju funkcije je_to_zivilo.")
 
-    def v_slovar( self):
+    def v_slovar(self):
         return {
             "ime" : self.ime,
             "kljucne_besede" : self.kljucne_besede,
             "tip" : self.tip,
             "cas_uporabe" : self.cas_uporabe
         }
-    @classmethod
-    def iz_slovarja(cls, slovar):
-        return cls(slovar["ime"], slovar["kljucne_besede"], slovar["tip"], slovar["cas_uporabe"])
+    @staticmethod
+    def iz_slovarja(slovar):
+        return Zivilo(slovar["ime"], slovar["kljucne_besede"], slovar["tip"], slovar["cas_uporabe"])
 
 
     @classmethod
@@ -123,6 +123,124 @@ class Zivilo:
     def izpisi_vsa(cls):
         for zivilo in Zivilo.zivila:
             print(zivilo)
-
-
 Zivilo.nalozi_iz_datoteke()
+
+############################################################
+
+import datetime
+
+NI_V_BAZI="ni najden v bazi"
+
+#Nakup_zivila hrani maso in datum nakupa. Na podlagi tipa zivila izracuna se rok uporabe. Omogoča pretvorbo v slovar(in nazaj).
+class Nakup_zivila:
+    def __init__(self, zivilo, masa=NI_DEFINIRANO, datum_nakupa=NI_DEFINIRANO, datum_roka=NI_DEFINIRANO):
+        if isinstance(zivilo, Zivilo):
+            self.zivilo=zivilo
+        else:
+            raise ValueError("zivilo ni primer razreda Zivilo.")
+
+        #dodaj maso ce je pravilna
+        if preveri_maso(masa):
+            self.masa=masa
+
+        #dodaj datum roka in datuma nakupa ce sta definirana drugače vzemi današnji datum za datum nakupa in mu prištej rok uporabe za datum roka
+        if datum_nakupa == NI_DEFINIRANO:
+            self.datum_nakupa=datetime.datetime.now().date()
+        else:
+            self.datum_nakupa=datum_nakupa
+
+        if datum_roka == NI_DEFINIRANO:
+            self.datum_roka=self.datum_nakupa + datetime.timedelta(days=self.zivilo.cas_uporabe)
+        else:
+            self.datum_roka=datum_roka     
+    
+    #preveri ali je pretecena hrana
+    def preteceno(self):
+        danes=datetime.datetime.now().date()
+        return self.datum_roka > danes
+
+    def v_slovar(self):
+        return {
+            "zivilo": self.zivilo.v_slovar(),
+            "masa": self.masa,
+            "datum_nakupa": self.datum_nakupa, 
+            "datum_roka": self.datum_roka
+        }
+    
+    @staticmethod
+    def iz_slovarja(slovar):
+        return Nakup_zivila(Zivilo.iz_slovarja(slovar["zivilo"]), slovar["masa"], slovar["datum_nakupa"], slovar["datum_roka"])
+
+#Importaj regex za iskanje mase oblike:  številka + "g|G"
+import re
+def najdi_maso(niz):
+    if isinstance(niz, str):
+        rezultat=re.search("[0-9]{1,4}(g|G)", niz)
+        if rezultat is None:
+            return NI_DEFINIRANO
+        else:
+            #ce obstaja masa jo pretvori v int
+            levi, desni=rezultat.span()
+            return int(niz[levi : (desni-1)])
+    else:
+        raise ValueError("Argument posredovan funkciji najdi_maso ni niz.")
+# gre čez vsa živila in pogleda ali ustreza. Pomankljivost je slaba časovna zahtevnost O(len(Zivilo.zivila))
+def nakup_zivila_iz_niza(niz):
+    if isinstance(niz, str):
+        masa=najdi_maso(niz)
+        #vzame prvega ki ga najde
+        for zivilo in Zivilo.zivila:
+            if zivilo.je_to_zivilo(niz):
+                return Nakup_zivila(zivilo, masa)
+        
+        #če ne ustreza nobenemu
+        return NI_V_BAZI
+    else:
+        raise ValueError("Argument posredovan funkciji nakup_iz_niza ni niz.")
+
+############################################################
+#Nakup je misljen kot 1 nakup v trgovini. Hrani seznam nakupljenih živil (torej z maso, datumom nakupa in rokom uporabe) in pa kdaj se je ta nakup zgodil (predvideva kar trenuten datum). Omogoča pretvorbo v slovar (in nazaj).
+class Nakup:
+    def __init__(self, nakupljena_zivila=None, datum_ustvarjanja=NI_DEFINIRANO):
+        if nakupljena_zivila is None:
+            nakupljena_zivila=[]
+        elif isinstance(nakupljena_zivila, list):
+            if all([isinstance(nakupljeno_zivilo, Nakup_zivila) for nakupljeno_zivilo in nakupljena_zivila]):
+                self.nakupljena_zivila=nakupljena_zivila
+        else:
+            raise ValueError("Nakupljena zivila niso seznam ali None pri ustvarjanju Nakup-a.")
+        
+        if datum_ustvarjanja == NI_DEFINIRANO:
+            self.datum_ustvarjanja=datetime.datetime.now().date()
+        else:
+            if isinstance(datum_ustvarjanja, datetime.date):
+                self.datum_ustvarjanja=datum_ustvarjanja
+            else:
+                raise ValueError("datum_ustvarjanja je definiran ampak ni primer razred datime.date.")
+    
+    def v_slovar(self):
+        nakupljena_zivila_v_slovar=[]
+        for nakupljeno_zivilo in self.nakupljena_zivila:
+            nakupljena_zivila_v_slovar+=[nakupljeno_zivilo.v_slovar()]
+
+        return {
+            "nakupljena_zivila": nakupljena_zivila_v_slovar, 
+            "datum_ustvarjanja": self.datum_ustvarjanja
+        }
+    
+    @staticmethod
+    def iz_slovarja(slovar):
+        nakupljena_zivila_iz_slovarja=[]
+        for nakupljeno_zivilo_v_slovarju in slovar["nakupljena_zivila"]:
+            nakupljena_zivila_iz_slovarja+=[Nakup_zivila.iz_slovarja(nakupljeno_zivilo_v_slovarju)]
+        
+        return Nakup(nakupljena_zivila_iz_slovarja, slovar["datum_ustvarjanja"])
+
+def Nakup_iz_vrstic(vrstice):
+    nakupljena_zivila=[]
+    for vrstica in vrstice:
+        mozen_nakup_zivila=nakup_zivila_iz_niza(vrstica)
+        if mozen_nakup_zivila != NI_V_BAZI:
+            nakupljena_zivila+=[mozen_nakup_zivila]
+
+    return Nakup(nakupljena_zivila)
