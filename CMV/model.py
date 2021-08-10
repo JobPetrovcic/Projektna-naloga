@@ -2,9 +2,8 @@
 import json
 
 MAKSIMALEN_ROK=10 * 365
-MAKSIMALNA_MASA=10000
+MAKSIMALNA_MASA=9999
 NI_DEFINIRANO="-----"
-IME_DATOTEKE="C:/Users/job1p/Desktop/Projektna-naloga/model/vsa_zivila.txt"
 
 def preveri_cas_uporabe(cas_uporabe):
     if( isinstance(cas_uporabe, int)):
@@ -34,8 +33,9 @@ tip_zivila={
     "zamrznjen izdelek" : 6 * 30,
     "ostalo": NI_DEFINIRANO,
 }
-#Zivilo je podatkovna baza. Hrani imena zivil v staticni spremenljivki "Zivilo.zivila" . V bazi je za vsako zivilo nekaj kljucnih besed po kateri prepoznamo. Npr. za pšenično moko sta potrebni besedi "pše" in "moka". Namreč na računih je pogosto prisotno krajšanje besed, saj je prostor omejen. Potrebno je previdno izbiranje krajših ključnih besed, saj obstaja možnost napačnega identificiranja živil iz niza (iz računa)
+#Zivilo je podatkovna baza. Hrani imena zivil v staticni spremenljivki "Zivilo.zivila" . V bazi je za vsako zivilo nekaj kljucnih besed po kateri prepoznamo. Npr. za pšenično moko sta potrebni besedi "pše" in "moka". Namreč na računih je pogosto prisotno krajšanje besed, saj je prostor omejen. Potrebno je previdno izbiranje krajših ključnih besed, saj obstaja možnost napačnega identificiranja živil iz niza (iz računa).
 class Zivilo:
+    IME_DATOTEKE="vsa_zivila.txt"
     zivila=[]
 
     def __init__(self, ime, kljucne_besede=None, tip="ostalo", cas_uporabe=NI_DEFINIRANO):
@@ -59,7 +59,7 @@ class Zivilo:
 
 
         if kljucne_besede is None:
-            kljucne_besede=[]
+            self.kljucne_besede=[]
         else:
             self.kljucne_besede=[]
             if isinstance(kljucne_besede, list):
@@ -123,6 +123,8 @@ class Zivilo:
     def izpisi_vsa(cls):
         for zivilo in Zivilo.zivila:
             print(zivilo)
+
+#nalozi podatke iz vsa_zivila.txt
 Zivilo.nalozi_iz_datoteke()
 
 ############################################################
@@ -147,12 +149,19 @@ class Nakup_zivila:
         if datum_nakupa == NI_DEFINIRANO:
             self.datum_nakupa=datetime.datetime.now().date()
         else:
-            self.datum_nakupa=datum_nakupa
+            if isinstance(datum_nakupa, datetime.date):
+                self.datum_nakupa=datum_nakupa
+            else:
+                raise ValueError("datum_nakupa ni primer razreda datetime.date.")
+
 
         if datum_roka == NI_DEFINIRANO:
             self.datum_roka=self.datum_nakupa + datetime.timedelta(days=self.zivilo.cas_uporabe)
         else:
-            self.datum_roka=datum_roka     
+            if isinstance(datum_nakupa, datetime.date):
+                self.datum_roka=datum_roka
+            else:
+                raise ValueError("datum_nakupa ni primer razreda datetime.date.")    
     
     #preveri ali je pretecena hrana
     def preteceno(self):
@@ -171,6 +180,9 @@ class Nakup_zivila:
     def iz_slovarja(slovar):
         return Nakup_zivila(Zivilo.iz_slovarja(slovar["zivilo"]), slovar["masa"], slovar["datum_nakupa"], slovar["datum_roka"])
 
+    def __lt__(self, other):
+        return self.datum_roka>other.datum_roka
+
 #Importaj regex za iskanje mase oblike:  številka + "g|G"
 import re
 def najdi_maso(niz):
@@ -181,13 +193,17 @@ def najdi_maso(niz):
         else:
             #ce obstaja masa jo pretvori v int
             levi, desni=rezultat.span()
-            return int(niz[levi : (desni-1)])
+            masa=int(niz[levi : (desni-1)])
+            return masa
     else:
         raise ValueError("Argument posredovan funkciji najdi_maso ni niz.")
+
 # gre čez vsa živila in pogleda ali ustreza. Pomankljivost je slaba časovna zahtevnost O(len(Zivilo.zivila))
 def nakup_zivila_iz_niza(niz):
     if isinstance(niz, str):
         masa=najdi_maso(niz)
+        preveri_maso(masa)
+        
         #vzame prvega ki ga najde
         for zivilo in Zivilo.zivila:
             if zivilo.je_to_zivilo(niz):
@@ -199,14 +215,16 @@ def nakup_zivila_iz_niza(niz):
         raise ValueError("Argument posredovan funkciji nakup_iz_niza ni niz.")
 
 ############################################################
-#Nakup je misljen kot 1 nakup v trgovini. Hrani seznam nakupljenih živil (torej z maso, datumom nakupa in rokom uporabe) in pa kdaj se je ta nakup zgodil (predvideva kar trenuten datum). Omogoča pretvorbo v slovar (in nazaj).
+#Nakup je misljen kot 1 nakup v trgovini. Hrani seznam nakupljenih živil  in pa kdaj se je ta nakup zgodil (predvideva kar trenuten datum). Omogoča pretvorbo v slovar (in nazaj).
 class Nakup:
     def __init__(self, nakupljena_zivila=None, datum_ustvarjanja=NI_DEFINIRANO):
         if nakupljena_zivila is None:
-            nakupljena_zivila=[]
+            self.nakupljena_zivila=[]
         elif isinstance(nakupljena_zivila, list):
             if all([isinstance(nakupljeno_zivilo, Nakup_zivila) for nakupljeno_zivilo in nakupljena_zivila]):
                 self.nakupljena_zivila=nakupljena_zivila
+            else:
+                raise ValueError("Seznam nakupljenih števil vsebuje element, ki ni primer razreda Nakup_zivila")
         else:
             raise ValueError("Nakupljena zivila niso seznam ali None pri ustvarjanju Nakup-a.")
         
@@ -231,12 +249,15 @@ class Nakup:
     @staticmethod
     def iz_slovarja(slovar):
         nakupljena_zivila_iz_slovarja=[]
-        for nakupljeno_zivilo_v_slovarju in slovar["nakupljena_zivila"]:
-            nakupljena_zivila_iz_slovarja+=[Nakup_zivila.iz_slovarja(nakupljeno_zivilo_v_slovarju)]
+        for nakupljeno_zivilo_v_slovar in slovar["nakupljena_zivila"]:
+            nakupljena_zivila_iz_slovarja+=[Nakup_zivila.iz_slovarja(nakupljeno_zivilo_v_slovar)]
         
         return Nakup(nakupljena_zivila_iz_slovarja, slovar["datum_ustvarjanja"])
 
-def Nakup_iz_vrstic(vrstice):
+    def __add__(self, other):
+        return Nakup(self.nakupljena_zivila + other.nakupljena_zivila, min(self.datum_ustvarjanja, other.datum_ustvarjanja))
+
+def nakup_iz_vrstic(vrstice):
     nakupljena_zivila=[]
     for vrstica in vrstice:
         mozen_nakup_zivila=nakup_zivila_iz_niza(vrstica)
