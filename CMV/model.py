@@ -172,13 +172,13 @@ class Nakup_zivila:
         return {
             "zivilo": self.zivilo.v_slovar(),
             "masa": self.masa,
-            "datum_nakupa": self.datum_nakupa, 
-            "datum_roka": self.datum_roka
+            "datum_nakupa": self.datum_nakupa.isoformat(), 
+            "datum_roka": self.datum_roka.isoformat()
         }
     
     @staticmethod
     def iz_slovarja(slovar):
-        return Nakup_zivila(Zivilo.iz_slovarja(slovar["zivilo"]), slovar["masa"], slovar["datum_nakupa"], slovar["datum_roka"])
+        return Nakup_zivila(Zivilo.iz_slovarja(slovar["zivilo"]), slovar["masa"], datetime.date.fromisoformat(slovar["datum_nakupa"]), datetime.date.fromisoformat(slovar["datum_roka"]))
 
     def __lt__(self, other):
         return self.datum_roka>other.datum_roka
@@ -243,7 +243,7 @@ class Nakup:
 
         return {
             "nakupljena_zivila": nakupljena_zivila_v_slovar, 
-            "datum_ustvarjanja": self.datum_ustvarjanja
+            "datum_ustvarjanja": self.datum_ustvarjanja.isoformat()
         }
     
     @staticmethod
@@ -252,7 +252,7 @@ class Nakup:
         for nakupljeno_zivilo_v_slovar in slovar["nakupljena_zivila"]:
             nakupljena_zivila_iz_slovarja+=[Nakup_zivila.iz_slovarja(nakupljeno_zivilo_v_slovar)]
         
-        return Nakup(nakupljena_zivila_iz_slovarja, slovar["datum_ustvarjanja"])
+        return Nakup(nakupljena_zivila_iz_slovarja, datetime.date.fromisoformat(slovar["datum_ustvarjanja"]))
 
     def __add__(self, other):
         return Nakup(self.nakupljena_zivila + other.nakupljena_zivila, min(self.datum_ustvarjanja, other.datum_ustvarjanja))

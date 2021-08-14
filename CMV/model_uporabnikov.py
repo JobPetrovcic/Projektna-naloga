@@ -52,7 +52,7 @@ class Uporabnik:
         with open(
             Uporabnik.ime_uporabnikove_datoteke(self.uporabnisko_ime), "w"
         ) as datoteka:
-            json.dump(self.v_slovar(), datoteka, ensure_ascii=False, indent=4)
+            json.dump(self.v_slovar(), datoteka, ensure_ascii=True, indent=4)
 
     def preveri_geslo(self, geslo_v_cistopisu):
         sol, _ = self.zasifrirano_geslo.split("$")
@@ -60,7 +60,7 @@ class Uporabnik:
 
     @staticmethod
     def ime_uporabnikove_datoteke(uporabnisko_ime):
-        return f"uporabniki/{uporabnisko_ime}.json"
+        return f"uporabniki/{uporabnisko_ime}/nakup.json"
 
     @staticmethod
     def iz_slovarja(slovar):

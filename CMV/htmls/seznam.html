@@ -1,0 +1,35 @@
+% rebase('base.html')
+<div class="column">
+    <table class="table is-hoverable is-fullwidth">
+        <thead>
+            <tr>
+                <th>porabi</th>
+                <th>živilo</th>
+                <th>masa</th>
+                <th>datum nakupa</th>
+                <th>rok uporabe</th>
+                <th>tip živila</th>
+            </tr>
+        </thead>
+        <tbody>
+            % for nakupljeno_zivilo in nakup.nakupljena_zivila:
+            <tr>
+                <td>
+                    <form action="/porabi_zivilo/" method="POST">
+                        <input type="checkbox" name="vehicle1">
+                    </form>
+                </td>
+                <td>{{nakupljeno_zivilo.zivilo.ime}}</td>
+                <td>{{nakupljeno_zivilo.masa}}</td>
+                <td>{{str(nakupljeno_zivilo.datum_nakupa)}}</td>
+                <td
+                    % if nakupljeno_zivilo.preteceno():
+                        class="is-danger"
+                    % end
+                >{{str(nakupljeno_zivilo.datum_roka)}}</td>
+                <td>{{nakupljeno_zivilo.zivilo.tip}}</td>
+            </tr>
+            % end
+        </tbody>
+    </table>
+</div>
