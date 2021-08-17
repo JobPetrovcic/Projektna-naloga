@@ -32,7 +32,10 @@ class Uporabnik:
     
     @staticmethod
     def ime_racuna(uporabnisko_ime, indeks_racuna, koncnica):
-        return f"uporabniki/{uporabnisko_ime}/slike_racunov/racun{indeks_racuna}{koncnica}"
+        if koncnica[0]=='.':
+            return f"uporabniki/{uporabnisko_ime}/slike_racunov/racun{indeks_racuna}{koncnica}"
+        else:
+            return f"uporabniki/{uporabnisko_ime}/slike_racunov/racun{indeks_racuna}.{koncnica}"
 
     @staticmethod
     def registracija(uporabnisko_ime, geslo_v_cistopisu):

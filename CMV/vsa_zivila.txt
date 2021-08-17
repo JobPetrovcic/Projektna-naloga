@@ -5,7 +5,7 @@
             "p\u0161e",
             "moka"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -14,7 +14,7 @@
             "ajd",
             "moka"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -22,7 +22,7 @@
         "kljucne_besede": [
             "fi\u017eol"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -30,7 +30,7 @@
         "kljucne_besede": [
             "sladkor"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -38,7 +38,7 @@
         "kljucne_besede": [
             "sol"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -46,7 +46,7 @@
         "kljucne_besede": [
             "testenine"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -54,7 +54,7 @@
         "kljucne_besede": [
             "\u0161pageti"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -62,7 +62,7 @@
         "kljucne_besede": [
             "tortilje"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -70,7 +70,7 @@
         "kljucne_besede": [
             "kruh"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -102,7 +102,7 @@
         "kljucne_besede": [
             "zdrob"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -118,7 +118,7 @@
         "kljucne_besede": [
             "kakav"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -126,7 +126,7 @@
         "kljucne_besede": [
             "ri\u017e"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -142,7 +142,7 @@
         "kljucne_besede": [
             "le\u0161"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -184,7 +184,7 @@
         "kljucne_besede": [
             "avokado"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -192,7 +192,7 @@
         "kljucne_besede": [
             "jabolka"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -200,7 +200,7 @@
         "kljucne_besede": [
             "breskve"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -297,7 +297,7 @@
         "kljucne_besede": [
             "keks"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -305,7 +305,7 @@
         "kljucne_besede": [
             "banan"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -321,7 +321,7 @@
         "kljucne_besede": [
             "svinj"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -329,7 +329,7 @@
         "kljucne_besede": [
             "gove"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -337,7 +337,7 @@
         "kljucne_besede": [
             "pi\u0161\u010dan"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -345,7 +345,7 @@
         "kljucne_besede": [
             "bonb"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -353,7 +353,7 @@
         "kljucne_besede": [
             "sliv"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -361,7 +361,7 @@
         "kljucne_besede": [
             "papr"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -369,7 +369,7 @@
         "kljucne_besede": [
             "krompir"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -377,7 +377,7 @@
         "kljucne_besede": [
             "kivi"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -385,7 +385,7 @@
         "kljucne_besede": [
             "melan"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -393,7 +393,7 @@
         "kljucne_besede": [
             "rib"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 1
     },
     {
@@ -401,7 +401,7 @@
         "kljucne_besede": [
             "\u010dok"
         ],
-        "tip": "suh",
+        "tip": "suh izdelek",
         "cas_uporabe": 730
     },
     {
@@ -409,7 +409,7 @@
         "kljucne_besede": [
             "sal"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -417,7 +417,7 @@
         "kljucne_besede": [
             "zel"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -425,7 +425,7 @@
         "kljucne_besede": [
             "\u010debul"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -433,7 +433,7 @@
         "kljucne_besede": [
             "\u010des"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -441,7 +441,7 @@
         "kljucne_besede": [
             "parad"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
     },
     {
@@ -449,7 +449,319 @@
         "kljucne_besede": [
             "bu\u010dk"
         ],
-        "tip": "sve\u017e",
+        "tip": "sve\u017e izdelek",
         "cas_uporabe": 3
+    },
+    {
+        "ime": "krompir",
+        "kljucne_besede": [
+            "krompir"
+        ],
+        "tip": "suh izdelek",
+        "cas_uporabe": 730
+    },
+    {
+        "ime": "olje",
+        "kljucne_besede": [
+            "olje"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kefir",
+        "kljucne_besede": [
+            "kefir"
+        ],
+        "tip": "mle\u010dni izdelek in jajca",
+        "cas_uporabe": 21
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "krompir",
+        "kljucne_besede": [
+            "krompir"
+        ],
+        "tip": "suh izdelek",
+        "cas_uporabe": 730
+    },
+    {
+        "ime": "olje",
+        "kljucne_besede": [
+            "olje"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kefir",
+        "kljucne_besede": [
+            "kefir"
+        ],
+        "tip": "mle\u010dni izdelek in jajca",
+        "cas_uporabe": 21
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "krompir",
+        "kljucne_besede": [
+            "krompir"
+        ],
+        "tip": "suh izdelek",
+        "cas_uporabe": 730
+    },
+    {
+        "ime": "olje",
+        "kljucne_besede": [
+            "olje"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kefir",
+        "kljucne_besede": [
+            "kefir"
+        ],
+        "tip": "mle\u010dni izdelek in jajca",
+        "cas_uporabe": 21
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
     }
 ]

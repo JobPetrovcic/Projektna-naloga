@@ -20,14 +20,14 @@ def preveri_maso(masa):
         if(masa>0 and masa<=MAKSIMALNA_MASA):
             return True
         else:
-            raise ValueError("Masa je negativno število, nič ali pa presega maksimalno maso.")
+            return False
     else:
-        raise ValueError("Masa ni ustreznega tipa (NI_DEFINIRANO ali pa stevilo).")
+        return False
 
 tip_zivila={
-    "svež": 3,
+    "svež izdelek": 3,
     "mlečni izdelek in jajca": 3 * 7,
-    "suh": 365 * 2,
+    "suh izdelek": 365 * 2,
     "pijača": 365 * 1,
     "konzervirana hrana" : 365 * 5,
     "zamrznjen izdelek" : 6 * 30,
@@ -50,6 +50,7 @@ class Zivilo:
             self.tip=tip
             self.cas_uporabe=tip_zivila[tip]
         else:
+            print(tip)
             raise ValueError("Ta tip zivila ne obstaja.")
 
         #Posamezna zivila nekega tipa imajo lahko različen cas uporabe kot tip katerega so. 
@@ -74,6 +75,12 @@ class Zivilo:
         #Dodaj v staticen seznam vseh zivil.
         Zivilo.zivila+=[self]
         Zivilo.nalozi_v_datoteko()
+    
+    def __eq__(self, other):
+        return (self.ime==other.ime and 
+        self.kljucne_besede==other.kljucne_besede and 
+        self.tip==other.tip and 
+        self.cas_uporabe==other.cas_uporabe)
 
     def __str__(self):
         return f'{self.ime} je tipa {self.tip} in ima cas uporabe {self.cas_uporabe} dni. Najdemo ga po besed -i/-ah {self.kljucne_besede}'
@@ -154,7 +161,6 @@ class Nakup_zivila:
             else:
                 raise ValueError("datum_nakupa ni primer razreda datetime.date.")
 
-
         if datum_roka == NI_DEFINIRANO:
             self.datum_roka=self.datum_nakupa + datetime.timedelta(days=self.zivilo.cas_uporabe)
         else:
@@ -163,10 +169,19 @@ class Nakup_zivila:
             else:
                 raise ValueError("datum_nakupa ni primer razreda datetime.date.")    
     
+    def __eq__(self, other):
+        if isinstance(other, Nakup_zivila):
+            return (self.zivilo==other.zivilo and
+            self.masa==other.masa and
+            self.datum_nakupa==other.datum_nakupa and
+            self.datum_roka==other.datum_roka)
+        else:
+            return False
+
     #preveri ali je pretecena hrana
     def preteceno(self):
         danes=datetime.datetime.now().date()
-        return self.datum_roka > danes
+        return self.datum_roka < danes
 
     def v_slovar(self):
         return {
@@ -201,13 +216,15 @@ def najdi_maso(niz):
 # gre čez vsa živila in pogleda ali ustreza. Pomankljivost je slaba časovna zahtevnost O(len(Zivilo.zivila))
 def nakup_zivila_iz_niza(niz):
     if isinstance(niz, str):
-        masa=najdi_maso(niz)
-        preveri_maso(masa)
         
         #vzame prvega ki ga najde
         for zivilo in Zivilo.zivila:
             if zivilo.je_to_zivilo(niz):
-                return Nakup_zivila(zivilo, masa)
+                masa=najdi_maso(niz)
+                if preveri_maso(masa):
+                    return Nakup_zivila(zivilo, masa)
+                else:
+                    Nakup_zivila(zivilo)
         
         #če ne ustreza nobenemu
         return NI_V_BAZI

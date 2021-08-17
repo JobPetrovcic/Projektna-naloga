@@ -1,5 +1,8 @@
+from model import nakup_iz_vrstic
 import bottle
 import os
+
+from bralnik import dobi_besedilo
 from model_uporabnikov import Uporabnik
 
 PISKOTEK_UPORABNISKO_IME = "uporabnisko_ime"
@@ -7,7 +10,6 @@ SKRIVNOST = "to ni nobena skrivnost"
 
 def shrani_stanje(uporabnik):
     uporabnik.v_datoteko()
-
 
 def trenutni_uporabnik():
     uporabnisko_ime = bottle.request.get_cookie(
@@ -27,11 +29,9 @@ def podatki_uporabnika(uporabnisko_ime):
 def zacetna_stran():
     bottle.redirect("/seznam/")
 
-
 @bottle.get("/registracija/")
 def registracija_get():
     return bottle.template("registracija.html", napaka=None)
-
 
 @bottle.post("/registracija/")
 def registracija_post():
@@ -50,11 +50,9 @@ def registracija_post():
             "registracija.html", napaka=e.args[0]
         )
 
-
 @bottle.get("/prijava/")
 def prijava_get():
     return bottle.template("prijava.html", napaka=None)
-
 
 @bottle.post("/prijava/")
 def prijava_post():
@@ -90,25 +88,44 @@ def dodaj_racun_get():
     trenutni_uporabnik()
     return bottle.template("dodaj_racun.html", napaka=None, sporocilo=None)
 
+dovoljeni_formati=('.jpg', )
 @bottle.post("/dodaj_racun/")
 def dodaj_racun_post():
     uporabnik=trenutni_uporabnik()
-
+    
+    #dobi datoteko
     nalozeno = bottle.request.files.get('nalozeno')
     ime, koncnica = os.path.splitext(nalozeno.filename)
 
-    print(koncnica)
-    if koncnica not in ('.png', '.jpg', '.jpeg'):
-        return bottle.template("dodaj_racun.html", napaka="Slika naj bo v formatu 'png', 'jpg' ali 'jpeg'.", sporocilo=None)
+    #preglej ali je v pravem formatu
+    if koncnica not in dovoljeni_formati:
+        return bottle.template("dodaj_racun.html", napaka=f"Slika naj bo v formatu {str(dovoljeni_formati)}", sporocilo=None)
 
+    #dobi ime datoteke v katero bomo shranili, računi so oštevilčeni z 0 naprej.
     pot = uporabnik.ime_racuna(uporabnik.uporabnisko_ime, uporabnik.stevilo_racunov, koncnica)
+
+    try:
+        nalozeno.save(pot)
+    except ValueError as e:
+        return bottle.template(
+            "dodaj_racun.html", napaka=e.args[0], sporocilo=None
+        )
+
+    #preberi račun
+    prebran_racun=dobi_besedilo(pot)
+    #povečaj števec računov v primeru, da ni napak
     uporabnik.stevilo_racunov+=1
 
-    nalozeno.save(pot)
+    #dodaj prepoznana živila v skupen nakup uporabnik
+    uporabnik.nakup+=nakup_iz_vrstic(prebran_racun)
+    shrani_stanje(uporabnik)
 
     return bottle.template("dodaj_racun.html", napaka=None, sporocilo="Slika uspešno naložena!")
 
 
 if __name__ == '__main__':
-    bottle.run(host="localhost", port="8080", reloader=True, debug=True)
+    #hihi
+    import warnings
+    warnings.filterwarnings(action="ignore", message="unclosed", category=ResourceWarning)
 
+    bottle.run(host="localhost", port="8080", reloader=True, debug=True)
