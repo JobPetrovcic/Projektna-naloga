@@ -1,0 +1,14 @@
+% rebase('base.html')
+
+<form method="post" enctype="multipart/form-data">
+    Izberi datoteko:  <input value="Izberi" type="file" name="nalozeno" />
+    <input type="submit" value="Naloži" />
+  </form>
+
+% if napaka:
+<p class="help is-danger">{{ napaka }}</p>
+% end
+
+% if sporocilo:
+<p class="help is-success">{{ sporocilo }}</p>
+% end

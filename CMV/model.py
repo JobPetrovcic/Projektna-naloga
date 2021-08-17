@@ -35,7 +35,7 @@ tip_zivila={
 }
 #Zivilo je podatkovna baza. Hrani imena zivil v staticni spremenljivki "Zivilo.zivila" . V bazi je za vsako zivilo nekaj kljucnih besed po kateri prepoznamo. Npr. za pšenično moko sta potrebni besedi "pše" in "moka". Namreč na računih je pogosto prisotno krajšanje besed, saj je prostor omejen. Potrebno je previdno izbiranje krajših ključnih besed, saj obstaja možnost napačnega identificiranja živil iz niza (iz računa).
 class Zivilo:
-    IME_DATOTEKE="vsa_zivila.txt"
+    VSA_ZIVILA="vsa_zivila.txt"
     zivila=[]
 
     def __init__(self, ime, kljucne_besede=None, tip="ostalo", cas_uporabe=NI_DEFINIRANO):
@@ -106,7 +106,7 @@ class Zivilo:
 
 
     @classmethod
-    def nalozi_v_datoteko(cls, ime_datoteke=IME_DATOTEKE):
+    def nalozi_v_datoteko(cls, ime_datoteke=VSA_ZIVILA):
         with open(ime_datoteke, "w") as datoteka:
             slovarji =[]
             for zivilo in cls.zivila:
@@ -114,7 +114,7 @@ class Zivilo:
             json.dump(slovarji, datoteka, ensure_ascii=True, indent=4)
 
     @classmethod
-    def nalozi_iz_datoteke(cls, ime_datoteke=IME_DATOTEKE):
+    def nalozi_iz_datoteke(cls, ime_datoteke=VSA_ZIVILA):
         with open(ime_datoteke) as datoteka:
             slovarji = json.load(datoteka)
             for slovar in slovarji:

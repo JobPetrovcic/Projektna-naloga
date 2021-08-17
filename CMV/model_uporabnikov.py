@@ -3,14 +3,17 @@
 import hashlib
 import json
 import random
+import os
 
 import model
 
 class Uporabnik:
-    def __init__(self, uporabnisko_ime, zasifrirano_geslo, nakup):
+
+    def __init__(self, uporabnisko_ime, zasifrirano_geslo, nakup, stevilo_racunov=0):
         self.uporabnisko_ime = uporabnisko_ime
         self.zasifrirano_geslo = zasifrirano_geslo
         self.nakup = nakup
+        self.stevilo_racunov=stevilo_racunov
     
     @staticmethod
     def prijava(uporabnisko_ime, geslo_v_cistopisu):
@@ -23,10 +26,20 @@ class Uporabnik:
             raise ValueError("Geslo je napačno")
 
     @staticmethod
+    def ustvari_mapo(uporabnisko_ime):
+        os.mkdir(f"uporabniki/{uporabnisko_ime}")
+        os.mkdir(f"uporabniki/{uporabnisko_ime}/slike_racunov")
+    
+    @staticmethod
+    def ime_racuna(uporabnisko_ime, indeks_racuna, koncnica):
+        return f"uporabniki/{uporabnisko_ime}/slike_racunov/racun{indeks_racuna}{koncnica}"
+
+    @staticmethod
     def registracija(uporabnisko_ime, geslo_v_cistopisu):
         if Uporabnik.iz_datoteke(uporabnisko_ime) is not None:
             raise ValueError("Uporabniško ime že obstaja")
         else:
+            Uporabnik.ustvari_mapo(uporabnisko_ime)
             zasifrirano_geslo = Uporabnik._zasifriraj_geslo(geslo_v_cistopisu)
             uporabnik = Uporabnik(uporabnisko_ime, zasifrirano_geslo, model.Nakup())
             uporabnik.v_datoteko()
@@ -46,11 +59,12 @@ class Uporabnik:
             "uporabnisko_ime": self.uporabnisko_ime,
             "zasifrirano_geslo": self.zasifrirano_geslo,
             "nakup": self.nakup.v_slovar(),
+            "stevilo_racunov":self.stevilo_racunov
         }
 
     def v_datoteko(self):
         with open(
-            Uporabnik.ime_uporabnikove_datoteke(self.uporabnisko_ime), "w"
+            Uporabnik.ime_uporabnikove_datoteke(self.uporabnisko_ime), "w+"
         ) as datoteka:
             json.dump(self.v_slovar(), datoteka, ensure_ascii=True, indent=4)
 
@@ -58,16 +72,18 @@ class Uporabnik:
         sol, _ = self.zasifrirano_geslo.split("$")
         return self.zasifrirano_geslo == Uporabnik._zasifriraj_geslo(geslo_v_cistopisu, sol)
 
+
     @staticmethod
     def ime_uporabnikove_datoteke(uporabnisko_ime):
-        return f"uporabniki/{uporabnisko_ime}/nakup.json"
+        return f"uporabniki/{uporabnisko_ime}/{uporabnisko_ime}.json"
 
     @staticmethod
     def iz_slovarja(slovar):
         uporabnisko_ime = slovar["uporabnisko_ime"]
         zasifrirano_geslo = slovar["zasifrirano_geslo"]
+        stevilo_racunov = slovar["stevilo_racunov"]
         nakup = model.Nakup.iz_slovarja(slovar["nakup"])
-        return Uporabnik(uporabnisko_ime, zasifrirano_geslo, nakup)
+        return Uporabnik(uporabnisko_ime, zasifrirano_geslo, nakup, stevilo_racunov)
 
     @staticmethod
     def iz_datoteke(uporabnisko_ime):
