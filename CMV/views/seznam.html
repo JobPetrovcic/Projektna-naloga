@@ -12,10 +12,10 @@
             </tr>
         </thead>
         <tbody>
-            % for nakupljeno_zivilo in nakup.nakupljena_zivila:
+            % for stevec, nakupljeno_zivilo in enumerate(nakup.nakupljena_zivila):
             <tr>
                 <td>
-                    <input type="checkbox">
+                    <a class="buttton is-rounded is-warning" href="/odstrani_nakupljeno/?id={{stevec}}">-</a>
                 </td>
                 <td>{{nakupljeno_zivilo.zivilo.ime}}</td>
                 <td>{{nakupljeno_zivilo.masa}}</td>

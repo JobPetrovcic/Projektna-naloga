@@ -39,19 +39,17 @@ class Zivilo:
     zivila=[]
 
     def __init__(self, ime, kljucne_besede=None, tip="ostalo", cas_uporabe=NI_DEFINIRANO):
-        #Preveri ali je tip zivila ime.
         if isinstance(ime, str):
             self.ime=ime
         else:
             raise ValueError("Ime zivila ni niz.")
 
-        #Dodaj tip zivila
+        #Preveri ali tip zivila obstaja in ga shrani kot atribut
         if tip in tip_zivila:
             self.tip=tip
             self.cas_uporabe=tip_zivila[tip]
         else:
-            print(tip)
-            raise ValueError("Ta tip zivila ne obstaja.")
+            raise ValueError("Tip zivila {tip} ne obstaja.")
 
         #Posamezna zivila nekega tipa imajo lahko različen cas uporabe kot tip katerega so. 
         if cas_uporabe != NI_DEFINIRANO:
@@ -77,10 +75,13 @@ class Zivilo:
         Zivilo.nalozi_v_datoteko()
     
     def __eq__(self, other):
-        return (self.ime==other.ime and 
-        self.kljucne_besede==other.kljucne_besede and 
-        self.tip==other.tip and 
-        self.cas_uporabe==other.cas_uporabe)
+        if isinstance(other,Zivilo):
+            return (self.ime==other.ime and 
+            self.kljucne_besede==other.kljucne_besede and 
+            self.tip==other.tip and 
+            self.cas_uporabe==other.cas_uporabe)
+        else:
+            return False
 
     def __str__(self):
         return f'{self.ime} je tipa {self.tip} in ima cas uporabe {self.cas_uporabe} dni. Najdemo ga po besed -i/-ah {self.kljucne_besede}'
@@ -126,6 +127,7 @@ class Zivilo:
             slovarji = json.load(datoteka)
             for slovar in slovarji:
                 cls.iz_slovarja(slovar)
+                
     @classmethod
     def izpisi_vsa(cls):
         for zivilo in Zivilo.zivila:
@@ -253,6 +255,12 @@ class Nakup:
             else:
                 raise ValueError("datum_ustvarjanja je definiran ampak ni primer razred datime.date.")
     
+    def odstrani(self, izbrano):
+        if len(self.nakupljena_zivila)>izbrano:
+            self.nakupljena_zivila.pop(izbrano)
+        else:
+            raise ValueError(f"Seznam ne vsebuje elementa {izbrano}.")
+
     def v_slovar(self):
         nakupljena_zivila_v_slovar=[]
         for nakupljeno_zivilo in self.nakupljena_zivila:

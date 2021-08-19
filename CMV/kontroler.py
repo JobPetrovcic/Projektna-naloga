@@ -24,7 +24,6 @@ def trenutni_uporabnik():
 def podatki_uporabnika(uporabnisko_ime):
     return Uporabnik.iz_datoteke(uporabnisko_ime)
 
-
 @bottle.get("/")
 def zacetna_stran():
     bottle.redirect("/seznam/")
@@ -122,10 +121,16 @@ def dodaj_racun_post():
 
     return bottle.template("dodaj_racun.html", napaka=None, sporocilo="Slika uspešno naložena!")
 
+@bottle.get("/odstrani_nakupljeno/")
+def odstrani_nakupljeno():
+    uporabnik=trenutni_uporabnik()
+
+    id=int(bottle.request.query.id)
+
+    uporabnik.nakup.odstrani(id)
+    shrani_stanje(uporabnik)
+
+    bottle.redirect('/')
 
 if __name__ == '__main__':
-    #hihi
-    import warnings
-    warnings.filterwarnings(action="ignore", message="unclosed", category=ResourceWarning)
-
     bottle.run(host="localhost", port="8080", reloader=True, debug=True)
