@@ -1251,5 +1251,6533 @@
         ],
         "tip": "konzervirana hrana",
         "cas_uporabe": 1825
+    },
+    {
+        "ime": "olje",
+        "kljucne_besede": [
+            "olje"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "olje",
+        "kljucne_besede": [
+            "olje"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "olje",
+        "kljucne_besede": [
+            "olje"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
+    },
+    {
+        "ime": "vino",
+        "kljucne_besede": [
+            "vino"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "kivi",
+        "kljucne_besede": [
+            "kivi"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "slive",
+        "kljucne_besede": [
+            "sliv"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "melancani",
+        "kljucne_besede": [
+            "melan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "paprika",
+        "kljucne_besede": [
+            "papr"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "breskve",
+        "kljucne_besede": [
+            "breskve"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "avokado",
+        "kljucne_besede": [
+            "avokado"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "sok",
+        "kljucne_besede": [
+            "sok"
+        ],
+        "tip": "pija\u010da",
+        "cas_uporabe": 365
+    },
+    {
+        "ime": "banane",
+        "kljucne_besede": [
+            "banan"
+        ],
+        "tip": "sve\u017e izdelek",
+        "cas_uporabe": 3
+    },
+    {
+        "ime": "kefir",
+        "kljucne_besede": [
+            "kefir"
+        ],
+        "tip": "mle\u010dni izdelek in jajca",
+        "cas_uporabe": 21
+    },
+    {
+        "ime": "kis",
+        "kljucne_besede": [
+            "kis"
+        ],
+        "tip": "konzervirana hrana",
+        "cas_uporabe": 1825
     }
 ]

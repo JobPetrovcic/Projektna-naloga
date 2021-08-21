@@ -205,13 +205,24 @@ import re
 def najdi_maso(niz):
     if isinstance(niz, str):
         rezultat=re.search("[0-9]{1,4}(g|G)", niz)
-        if rezultat is None:
-            return NI_DEFINIRANO
-        else:
+        if rezultat is not None:
             #ce obstaja masa jo pretvori v int
             levi, desni=rezultat.span()
             masa=int(niz[levi : (desni-1)])
             return masa
+
+        rezultat=re.search("[0-9,.]{1,4}(kg|KG|Kg|kG)", niz)
+        if rezultat is not None:
+            levi, desni=rezultat.span()
+            masa_niz=niz[levi : (desni-2)]
+            try:
+                masa=float(masa_niz)
+                masa*=1000
+                return masa
+            except:
+                pass
+
+        return NI_DEFINIRANO
     else:
         raise ValueError("Argument posredovan funkciji najdi_maso ni niz.")
 
