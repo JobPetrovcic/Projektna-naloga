@@ -15,12 +15,20 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a href="/registracija/" class="button is-primary">
-                <strong>Registracija</strong>
-              </a>
-              <a href="/prijava/" class="button is-light">
-                Prijava
-              </a>
+              %from kontroler import trenutno_uporabnisko_ime
+              %uporabnik=trenutno_uporabnisko_ime()
+              %if uporabnik is None:
+                <a href="/registracija/" class="button is-primary">
+                  <strong>Registracija</strong>
+                </a>
+                <a href="/prijava/" class="button is-light">
+                  Prijava
+                </a>
+              %else:
+                <a href="/odjava/" class="button is-light is-info">
+                  Odjava
+                </a>
+              %end
             </div>
           </div>
         </div>

@@ -112,6 +112,13 @@ class Zivilo:
     def iz_slovarja(slovar):
         return Zivilo(slovar["ime"], slovar["kljucne_besede"], slovar["tip"], slovar["cas_uporabe"])
 
+    @staticmethod
+    def dobi_zivilo_iz_imena(ime):
+        for zivilo in Zivilo.zivila:
+            if zivilo.ime==ime:
+                return zivilo
+        
+        raise ValueError(f"Ime '{ime}' ne ustreza nobenemu živilu v bazi.")
 
     @classmethod
     def nalozi_v_datoteko(cls, ime_datoteke=VSA_ZIVILA):
@@ -127,7 +134,7 @@ class Zivilo:
             slovarji = json.load(datoteka)
             for slovar in slovarji:
                 cls.iz_slovarja(slovar)
-                
+
     @classmethod
     def izpisi_vsa(cls):
         for zivilo in Zivilo.zivila:
@@ -153,6 +160,8 @@ class Nakup_zivila:
         #dodaj maso ce je pravilna
         if preveri_maso(masa):
             self.masa=masa
+        else:
+            self.masa=NI_DEFINIRANO
 
         #dodaj datum roka in datuma nakupa ce sta definirana drugače vzemi današnji datum za datum nakupa in mu prištej rok uporabe za datum roka
         if datum_nakupa == NI_DEFINIRANO:
@@ -291,7 +300,10 @@ class Nakup:
         return Nakup(nakupljena_zivila_iz_slovarja, datetime.date.fromisoformat(slovar["datum_ustvarjanja"]))
 
     def __add__(self, other):
-        return Nakup(self.nakupljena_zivila + other.nakupljena_zivila, min(self.datum_ustvarjanja, other.datum_ustvarjanja))
+        if isinstance(other, Nakup_zivila):
+            return Nakup(self.nakupljena_zivila + [other], self.datum_ustvarjanja)
+        elif isinstance(other, Nakup):
+            return Nakup(self.nakupljena_zivila + other.nakupljena_zivila, min(self.datum_ustvarjanja, other.datum_ustvarjanja))
 
 def nakup_iz_vrstic(vrstice):
     nakupljena_zivila=[]

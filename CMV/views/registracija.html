@@ -13,10 +13,8 @@ Pozdravljeni! Prosim registrirajte se, da lahko uporabljate to storitev.
                     <i class="fas fa-user"></i>
                 </span>
             </div>
-            % if napaka:
-            <p class="help is-danger">{{ napaka }}</p>
-            % end
         </div>
+
         <div class="field">
             <label class="label">Geslo</label>
             <div class="control has-icons-left">
@@ -26,11 +24,26 @@ Pozdravljeni! Prosim registrirajte se, da lahko uporabljate to storitev.
                 </span>
             </div>
         </div>
-        <div class="field is-grouped">
-            <div class="control">
-                <button class="button is-link">Prijavi se</button>
+        
+        <div class="field">
+            <label class="label">Ponovi geslo</label>
+            <div class="control has-icons-left">
+                <input class="input" name="ponovljeno_geslo" type="password" placeholder="ponovi geslo">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
             </div>
         </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link">Registriraj se</button>
+            </div>
+        </div>
+
+        % if napaka:
+        <p class="help is-danger">{{ napaka }}</p>
+        % end
     </form>
 </div>
 <p>Če se hočete <a href="/prijava/">prijaviti</a>.</p>

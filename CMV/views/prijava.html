@@ -2,6 +2,7 @@
 <p> 
 Pozdravljeni! Prosim prijavite se, da lahko uporabljate to storitev.
 </p>
+
 <br>
 <div>
     <form method="POST">
@@ -13,9 +14,6 @@ Pozdravljeni! Prosim prijavite se, da lahko uporabljate to storitev.
                     <i class="fas fa-user"></i>
                 </span>
             </div>
-            % if napaka:
-            <p class="help is-danger">{{ napaka }}</p>
-            % end
         </div>
         <div class="field">
             <label class="label">Geslo</label>
@@ -31,6 +29,10 @@ Pozdravljeni! Prosim prijavite se, da lahko uporabljate to storitev.
                 <button class="button is-link">Prijavi se</button>
             </div>
         </div>
+        
+        % if napaka:
+        <p class="help is-danger">{{ napaka }}</p>
+        % end
     </form>
 </div>
 <p>Če še niste <a href="/registracija/">registrirani</a>.</p>

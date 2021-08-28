@@ -333,7 +333,7 @@
         "cas_uporabe": 3
     },
     {
-        "ime": "pi\u0161\u010danj\u010dje meso",
+        "ime": "pi\u0161\u010dan\u010dje meso",
         "kljucne_besede": [
             "pi\u0161\u010dan"
         ],
