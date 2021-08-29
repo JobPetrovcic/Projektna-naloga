@@ -3,17 +3,14 @@
     <h2 class="title is-1">Dobrodošli!</h2>
     <div>
         <p>
-            Ta spletna stran omogoča registriranim uporabnikom, da vdržujejo evidenčni seznam nakupljenih izdelkov. Za začetek se prosim <a href="registracija.html">registrirajte</a>. Če ste to že naredili, pa se <a href="prijava.html">prijavite</a>.
+            Ta spletna stran omogoča registriranim uporabnikom, da vdržujejo evidenčni seznam nakupljenih izdelkov. Za začetek se prosim <a href="/registracija/">registrirajte</a>. Če ste to že naredili, pa se <a href="/prijava/">prijavite</a>.
         </p>
         <br>
         <p>
             Uporaba je nato preprosta. Če imate račun iz trgovine, ga skenirajte s klikom na gumb "Skeniraj račun".
-            Slika naj bo čim boljše kvalitete za boljše rezultate, zato uporabite skener. Slikanje s telefonom ni priporočena. Slika naj ima visok kontrast in ločljivost, barva pa naj bo črno bela. Poglejte si <a >primer<div><img src="primer_racuna.jpg" /></div></a>.
+            Slika naj bo čim boljše kvalitete za boljše rezultate, zato uporabite skener. Slikanje s telefonom ni priporočeno. Slika naj ima visok kontrast in ločljivost, barva pa naj bo črno bela. Oglejte si <a 
+            onMouseOver="document.getElementById('slika_za_prikazat').style.display='block'"
+            onMouseOut="document.getElementById('slika_za_prikazat').style.display='none'">primer.<div id="slika_za_prikazat"style="display:none"><img width="400px" src="/img/primer_racuna.jpg" /></div></a>
         </p>
-        <style>
-            a>div { display: none; }
-            a:hover>div { display: block; }
-        </style>
     </div>
 </div>
-

@@ -438,20 +438,6 @@
                 "masa": 53,
                 "datum_nakupa": "2021-08-28",
                 "datum_roka": "2023-08-28"
-            },
-            {
-                "zivilo": {
-                    "ime": "p\u0161eni\u010dna moka",
-                    "kljucne_besede": [
-                        "p\u0161e",
-                        "moka"
-                    ],
-                    "tip": "suh izdelek",
-                    "cas_uporabe": 730
-                },
-                "masa": 11,
-                "datum_nakupa": "2021-08-28",
-                "datum_roka": "2023-08-28"
             }
         ],
         "datum_ustvarjanja": "2021-08-28"

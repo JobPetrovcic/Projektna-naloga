@@ -69,10 +69,6 @@ class Zivilo:
                     raise ValueError("Neka kljucna beseda ni niz.")
             else:
                 raise ValueError("Kljucne besede niso seznam.")
-
-        #Dodaj v staticen seznam vseh zivil.
-        Zivilo.zivila+=[self]
-        Zivilo.nalozi_v_datoteko()
     
     def __eq__(self, other):
         if isinstance(other,Zivilo):

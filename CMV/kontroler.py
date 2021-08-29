@@ -8,6 +8,8 @@ from model_uporabnikov import Uporabnik
 PISKOTEK_UPORABNISKO_IME = "uporabnisko_ime"
 SKRIVNOST = "to ni nobena skrivnost"
 
+
+#funkcije za delanje z uporabnikom
 def shrani_stanje(uporabnik):
     uporabnik.v_datoteko()
 
@@ -26,9 +28,17 @@ def trenutni_uporabnik():
 def podatki_uporabnika(uporabnisko_ime):
     return Uporabnik.iz_datoteke(uporabnisko_ime)
 
+#povej kje so slike
+@bottle.get("/img/<picture>")
+def slike(picture):
+    return bottle.static_file(picture, "img")
+
 @bottle.get("/")
 def zacetna_stran():
-    bottle.redirect("/seznam/")
+    if trenutno_uporabnisko_ime() is not None:
+        bottle.redirect("/seznam/")
+    else:
+        return bottle.template("zacetna_stran.html")
 
 @bottle.get("/registracija/")
 def registracija_get():
@@ -44,9 +54,11 @@ def registracija_post():
     if not uporabnisko_ime:
         return bottle.template("registracija.html", napaka="Vnesi uporabniško ime!")
 
+    #preveri dolžino
     if len(geslo_v_cistopisu) < MINIMALNA_DOLZINA_GESLA:
-        return bottle.template("registracija.html", napaka=f"Geslo ni ustrezno! Vsebuje naj črke, številke in druge znake, ter naj bo dolgo vsaj {MINIMALNA_DOLZINA_GESLA} znake.")
-
+        return bottle.template("registracija.html", napaka=f"Geslo ni ustrezno! Dolgo naj bo vsaj {MINIMALNA_DOLZINA_GESLA} znake.")
+    
+    #preveri da se gesli ujemata
     if ponovljeno_geslo_v_cistopisu != geslo_v_cistopisu:
         return bottle.template("registracija.html", napaka="Gesli se ne ujemata!")
     
@@ -63,7 +75,10 @@ def registracija_post():
 
 @bottle.get("/prijava/")
 def prijava_get():
-    return bottle.template("prijava.html", napaka=None)
+    if trenutno_uporabnisko_ime() is not None:
+        bottle.redirect("/seznam/")
+    else:
+        return bottle.template("prijava.html", napaka=None)
 
 @bottle.post("/prijava/")
 def prijava_post():
@@ -112,7 +127,7 @@ def dodaj_racun_post():
 
     #preglej ali je v pravem formatu
     if koncnica not in dovoljeni_formati:
-        return bottle.template("dodaj_racun.html", napaka=f"Slika naj bo v formatu {str(dovoljeni_formati)}", sporocilo=None)
+        return bottle.template("dodaj_racun.html", napaka=f"Slika naj bo v formatu/ih {str(dovoljeni_formati)}.", sporocilo=None)
 
     #dobi ime datoteke v katero bomo shranili, računi so oštevilčeni z 0 naprej.
     pot = uporabnik.ime_racuna(uporabnik.uporabnisko_ime, uporabnik.stevilo_racunov, koncnica)
@@ -140,18 +155,27 @@ def dodaj_racun_post():
 def odstrani_nakupljeno():
     uporabnik=trenutni_uporabnik()
 
+    #v seznamu so izdelki oštevilčeni
+    #POZOR: možna napaka če ima uporabnik odprtih več različic seznama
     id=int(bottle.request.query.id)
 
-    uporabnik.nakup.odstrani(id)
-    shrani_stanje(uporabnik)
+    #napako lahko ustavimo, a še vedno obstaja možnost, da zbrišemo napačno 
+    if id < len(uporabnik.nakup.nakupljena_zivila):
+        uporabnik.nakup.odstrani(id)
+        shrani_stanje(uporabnik)
+    else:
+        return bottle.template("seznam.html", nakup=uporabnik.nakup, uporabnik=uporabnik, napaka="Nekaj je šlo narobe pri odstranjevanju izdelka.")
 
     bottle.redirect('/seznam/')
 
 @bottle.get("/dodaj_nakup_zivila/")
 def dodaj_nakup_zivila():
     uporabnik=trenutni_uporabnik()
+    #dobi izbrano iz "select"
     izbrano_zivilo=Zivilo.dobi_zivilo_iz_imena(bottle.request.query.getunicode("izbrano_zivilo"))
+
     masa=bottle.request.query.getunicode("masa")
+    #preveri maso 
     if masa.isnumeric() and preveri_maso(int(masa)):
         masa=int(masa)
         uporabnik.nakup+=Nakup_zivila(izbrano_zivilo, masa)
@@ -161,4 +185,4 @@ def dodaj_nakup_zivila():
         return bottle.template("seznam.html", nakup=uporabnik.nakup, uporabnik=uporabnik, napaka="Masa naj bo pozitivno celo število.")
 
 if __name__ == '__main__':
-    bottle.run(host="localhost", port="8080", reloader=True, debug=True)
+    bottle.run(host="localhost", port="8080", reloader=True, debug=True, fast=True)

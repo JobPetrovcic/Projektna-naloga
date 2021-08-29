@@ -40,6 +40,3 @@ def dobi_besedilo(ime_datoteke):
             
     else:
         raise ValueError("Ime datoteke ni niz.")
-
-#testni primer
-#print(dobi_besedilo("CCF30072021.jpg"))
