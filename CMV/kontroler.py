@@ -159,7 +159,7 @@ def odstrani_nakupljeno():
     #POZOR: možna napaka če ima uporabnik odprtih več različic seznama
     id=int(bottle.request.query.id)
 
-    #napako lahko ustavimo, a še vedno obstaja možnost, da zbrišemo napačno 
+    #napako lahko ustavimo, a še vedno obstaja možnost, da zbrišemo napačen izdelek
     if id < len(uporabnik.nakup.nakupljena_zivila):
         uporabnik.nakup.odstrani(id)
         shrani_stanje(uporabnik)
@@ -183,6 +183,7 @@ def dodaj_nakup_zivila():
         bottle.redirect('/seznam/')
     else:
         return bottle.template("seznam.html", nakup=uporabnik.nakup, uporabnik=uporabnik, napaka="Masa naj bo pozitivno celo število.")
+
 
 if __name__ == '__main__':
     bottle.run(host="localhost", port="8080", reloader=True, debug=True, fast=True)

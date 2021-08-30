@@ -14,6 +14,7 @@ def preveri_cas_uporabe(cas_uporabe):
     else:
         raise ValueError("Cas_uporabe ni število.")
 def preveri_maso(masa):
+    #preveri da je masa pozitivno celo število in je manjša ali enaka omejitvi
     if masa == NI_DEFINIRANO:
         return True
     if isinstance(masa, int):
@@ -61,6 +62,7 @@ class Zivilo:
             self.kljucne_besede=[]
         else:
             self.kljucne_besede=[]
+            #preveri da so kljucne besede res seznam nizev
             if isinstance(kljucne_besede, list):
                 if all([isinstance(beseda, str) for beseda in kljucne_besede]):
                     for beseda in kljucne_besede:
@@ -86,7 +88,7 @@ class Zivilo:
         if isinstance(beseda, str):
             self.kljucne_besede+=[beseda]
         else:
-            raise ValueError("Kljucna beseda ni niz.")
+            raise ValueError("Ključna beseda ni niz.")
 
     def je_to_zivilo(self, niz):
         if isinstance(niz, str):
@@ -131,12 +133,7 @@ class Zivilo:
             for slovar in slovarji:
                 cls.iz_slovarja(slovar)
 
-    @classmethod
-    def izpisi_vsa(cls):
-        for zivilo in Zivilo.zivila:
-            print(zivilo)
-
-#nalozi podatke iz vsa_zivila.txt
+#ob zagonu nalozi podatke iz vsa_zivila.txt
 Zivilo.nalozi_iz_datoteke()
 
 ############################################################
@@ -153,7 +150,7 @@ class Nakup_zivila:
         else:
             raise ValueError("zivilo ni primer razreda Zivilo.")
 
-        #dodaj maso ce je pravilna
+        #dodaj maso ce ustreza kriterijem
         if preveri_maso(masa):
             self.masa=masa
         else:
@@ -209,6 +206,7 @@ class Nakup_zivila:
 import re
 def najdi_maso(niz):
     if isinstance(niz, str):
+        #iščemo podniz oblike številka +"g"
         rezultat=re.search("[0-9]{1,4}(g|G)", niz)
         if rezultat is not None:
             #ce obstaja masa jo pretvori v int
@@ -216,17 +214,19 @@ def najdi_maso(niz):
             masa=int(niz[levi : (desni-1)])
             return masa
 
+        #iščemo podniz oblike številka +"kg"
         rezultat=re.search("[0-9,.]{1,4}(kg|KG|Kg|kG)", niz)
         if rezultat is not None:
             levi, desni=rezultat.span()
             masa_niz=niz[levi : (desni-2)]
             try:
                 masa=float(masa_niz)
+                #pomnoži s 1000, ker hranimo maso v gramih
                 masa*=1000
-                return masa
+                return int(masa)
             except:
                 pass
-
+                 
         return NI_DEFINIRANO
     else:
         raise ValueError("Argument posredovan funkciji najdi_maso ni niz.")
@@ -234,9 +234,9 @@ def najdi_maso(niz):
 # gre čez vsa živila in pogleda ali ustreza. Pomankljivost je slaba časovna zahtevnost O(len(Zivilo.zivila))
 def nakup_zivila_iz_niza(niz):
     if isinstance(niz, str):
-        
-        #vzame prvega ki ga najde
+        #gre čez vsa živila v podatkovni bazi in preveri ali so vse ključne besede vsebovane v nizu
         for zivilo in Zivilo.zivila:
+            #vzame prvega ki ga najde
             if zivilo.je_to_zivilo(niz):
                 masa=najdi_maso(niz)
                 if preveri_maso(masa):
@@ -250,7 +250,7 @@ def nakup_zivila_iz_niza(niz):
         raise ValueError("Argument posredovan funkciji nakup_iz_niza ni niz.")
 
 ############################################################
-#Nakup je misljen kot 1 nakup v trgovini. Hrani seznam nakupljenih živil  in pa kdaj se je ta nakup zgodil (predvideva kar trenuten datum). Omogoča pretvorbo v slovar (in nazaj).
+#Hrani seznam nakupljenih živil  in pa kdaj se je ta nakup zgodil (predvideva kar trenuten datum). Omogoča pretvorbo v slovar (in nazaj).
 class Nakup:
     def __init__(self, nakupljena_zivila=None, datum_ustvarjanja=NI_DEFINIRANO):
         if nakupljena_zivila is None:
@@ -272,6 +272,7 @@ class Nakup:
                 raise ValueError("datum_ustvarjanja je definiran ampak ni primer razred datime.date.")
     
     def odstrani(self, izbrano):
+        #izbrano je indeks nakupljenega živila
         if len(self.nakupljena_zivila)>izbrano:
             self.nakupljena_zivila.pop(izbrano)
         else:
@@ -284,7 +285,7 @@ class Nakup:
 
         return {
             "nakupljena_zivila": nakupljena_zivila_v_slovar, 
-            "datum_ustvarjanja": self.datum_ustvarjanja.isoformat()
+            "datum_ustvarjanja": self.datum_ustvarjanja.isoformat() #datum pretvorimo v isoformat za shranjevanje v besedilo
         }
     
     @staticmethod
@@ -295,12 +296,16 @@ class Nakup:
         
         return Nakup(nakupljena_zivila_iz_slovarja, datetime.date.fromisoformat(slovar["datum_ustvarjanja"]))
 
+    #definiramo seštevanje dveh nakupov za lažje obdelovanje
     def __add__(self, other):
         if isinstance(other, Nakup_zivila):
             return Nakup(self.nakupljena_zivila + [other], self.datum_ustvarjanja)
         elif isinstance(other, Nakup):
             return Nakup(self.nakupljena_zivila + other.nakupljena_zivila, min(self.datum_ustvarjanja, other.datum_ustvarjanja))
+        else:
+            return self
 
+#na seznamu nizov izvede nakup_zivila_iz_niza
 def nakup_iz_vrstic(vrstice):
     nakupljena_zivila=[]
     for vrstica in vrstice:
