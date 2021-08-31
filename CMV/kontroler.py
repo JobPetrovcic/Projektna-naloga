@@ -164,7 +164,10 @@ def odstrani_nakupljeno():
         uporabnik.nakup.odstrani(id)
         shrani_stanje(uporabnik)
     else:
-        return bottle.template("seznam.html", nakup=uporabnik.nakup, uporabnik=uporabnik, napaka="Nekaj je šlo narobe pri odstranjevanju izdelka.")
+        return bottle.template("seznam.html", 
+        nakup=uporabnik.nakup,
+        uporabnik=uporabnik, 
+        napaka="Nekaj je šlo narobe pri odstranjevanju izdelka.")
 
     bottle.redirect('/seznam/')
 
@@ -182,8 +185,12 @@ def dodaj_nakup_zivila():
         shrani_stanje(uporabnik)
         bottle.redirect('/seznam/')
     else:
-        return bottle.template("seznam.html", nakup=uporabnik.nakup, uporabnik=uporabnik, napaka="Masa naj bo pozitivno celo število.")
+        return bottle.template("seznam.html", 
+        nakup=uporabnik.nakup, 
+        uporabnik=uporabnik, 
+        napaka="Masa naj bo pozitivno celo število.")
 
 
 if __name__ == '__main__':
+    #print(len(Zivilo.zivila))
     bottle.run(host="localhost", port="8080", reloader=True, debug=True, fast=True)

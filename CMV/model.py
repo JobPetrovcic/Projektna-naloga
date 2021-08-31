@@ -122,19 +122,19 @@ class Zivilo:
         raise ValueError(f"Ime '{ime}' ne ustreza nobenemu živilu v bazi.")
 
     @classmethod
-    def nalozi_v_datoteko(cls, ime_datoteke=VSA_ZIVILA):
-        with open(ime_datoteke, "w") as datoteka:
+    def nalozi_v_datoteko(cls):
+        with open(cls.VSA_ZIVILA, "w") as datoteka:
             slovarji =[]
             for zivilo in cls.zivila:
                 slovarji+=[zivilo.v_slovar()]
             json.dump(slovarji, datoteka, ensure_ascii=True, indent=4)
 
     @classmethod
-    def nalozi_iz_datoteke(cls, ime_datoteke=VSA_ZIVILA):
-        with open(ime_datoteke) as datoteka:
+    def nalozi_iz_datoteke(cls):
+        with open(cls.VSA_ZIVILA) as datoteka:
             slovarji = json.load(datoteka)
             for slovar in slovarji:
-                cls.iz_slovarja(slovar)
+                cls.zivila+=[cls.iz_slovarja(slovar)]
 
 #ob zagonu nalozi podatke iz vsa_zivila.txt
 Zivilo.nalozi_iz_datoteke()
