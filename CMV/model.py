@@ -108,7 +108,10 @@ class Zivilo:
         }
     @staticmethod
     def iz_slovarja(slovar):
-        return Zivilo(slovar["ime"], slovar["kljucne_besede"], slovar["tip"], slovar["cas_uporabe"])
+        return Zivilo(slovar["ime"], 
+        slovar["kljucne_besede"], 
+        slovar["tip"], 
+        slovar["cas_uporabe"])
 
     @staticmethod
     def dobi_zivilo_iz_imena(ime):
@@ -197,7 +200,10 @@ class Nakup_zivila:
     
     @staticmethod
     def iz_slovarja(slovar):
-        return Nakup_zivila(Zivilo.iz_slovarja(slovar["zivilo"]), slovar["masa"], datetime.date.fromisoformat(slovar["datum_nakupa"]), datetime.date.fromisoformat(slovar["datum_roka"]))
+        return Nakup_zivila(Zivilo.iz_slovarja(slovar["zivilo"]), 
+        slovar["masa"], 
+        datetime.date.fromisoformat(slovar["datum_nakupa"]), 
+        datetime.date.fromisoformat(slovar["datum_roka"]))
 
     def __lt__(self, other):
         return self.datum_roka>other.datum_roka
@@ -301,7 +307,8 @@ class Nakup:
         if isinstance(other, Nakup_zivila):
             return Nakup(self.nakupljena_zivila + [other], self.datum_ustvarjanja)
         elif isinstance(other, Nakup):
-            return Nakup(self.nakupljena_zivila + other.nakupljena_zivila, min(self.datum_ustvarjanja, other.datum_ustvarjanja))
+            nov_datum=min(self.datum_ustvarjanja, other.datum_ustvarjanja)
+            return Nakup(self.nakupljena_zivila + other.nakupljena_zivila, nov_datum)
         else:
             return self
 

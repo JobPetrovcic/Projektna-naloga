@@ -1,6 +1,5 @@
 import os
 import io
-import codecs
 import pytesseract
 pytesseract.pytesseract.tesseract_cmd=r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 from PIL import Image
@@ -24,7 +23,7 @@ def ocr_image(input_file, language, sharpen=False):
         with Image.open(transfer) as img:
             return pytesseract.image_to_string(img, lang=language)
 
-dovoljeni_formati=('.jpg', )
+dovoljeni_formati=('.jpg', '.png')
 #NASVET: slika naj bo crno bela, s cim vecjim kontrastom in locljivostjo, račun pa naj bo "svež", saj črnilo s časom zbledi
 def dobi_besedilo(ime_datoteke):
     if(isinstance(ime_datoteke, str)):
