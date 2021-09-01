@@ -1,4 +1,4 @@
-from model import nakup_iz_vrstic, Nakup_zivila, Zivilo, preveri_maso
+from model import nakup_iz_vrstic, Nakup_zivila, Zivilo, preveri_maso, NI_DEFINIRANO
 import bottle
 import os
 
@@ -8,11 +8,10 @@ from model_uporabnikov import Uporabnik
 PISKOTEK_UPORABNISKO_IME = "uporabnisko_ime"
 SKRIVNOST = "to ni nobena skrivnost"
 
-
-#funkcije za delanje z uporabnikom
 def shrani_stanje(uporabnik):
     uporabnik.v_datoteko()
 
+#pomožna funkcija za preverjanje piškotka
 def trenutno_uporabnisko_ime():
     return bottle.request.get_cookie(
         PISKOTEK_UPORABNISKO_IME, secret=SKRIVNOST
@@ -178,10 +177,16 @@ def dodaj_nakup_zivila():
     izbrano_zivilo=Zivilo.dobi_zivilo_iz_imena(bottle.request.query.getunicode("izbrano_zivilo"))
 
     masa=bottle.request.query.getunicode("masa")
+
     #preveri maso 
+    
     if masa.isnumeric() and preveri_maso(int(masa)):
         masa=int(masa)
         uporabnik.nakup+=Nakup_zivila(izbrano_zivilo, masa)
+        shrani_stanje(uporabnik)
+        bottle.redirect('/seznam/')
+    elif masa=="":
+        uporabnik.nakup+=Nakup_zivila(izbrano_zivilo)
         shrani_stanje(uporabnik)
         bottle.redirect('/seznam/')
     else:
@@ -192,5 +197,4 @@ def dodaj_nakup_zivila():
 
 
 if __name__ == '__main__':
-    #print(len(Zivilo.zivila))
     bottle.run(host="localhost", port="8080", reloader=True, debug=True, fast=True)

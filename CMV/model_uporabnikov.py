@@ -1,5 +1,3 @@
-# Ta koda je skopirana iz predavanj profesorja Matije Pretnarja in je predelana v manjši obliki.
-
 import hashlib
 import json
 import random

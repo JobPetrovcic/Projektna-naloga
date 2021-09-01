@@ -34,7 +34,12 @@ tip_zivila={
     "zamrznjen izdelek" : 6 * 30,
     "ostalo": NI_DEFINIRANO,
 }
-#Zivilo je podatkovna baza. Hrani imena zivil v staticni spremenljivki "Zivilo.zivila" . V bazi je za vsako zivilo nekaj kljucnih besed po kateri prepoznamo. Npr. za pšenično moko sta potrebni besedi "pše" in "moka". Namreč na računih je pogosto prisotno krajšanje besed, saj je prostor omejen. Potrebno je previdno izbiranje krajših ključnih besed, saj obstaja možnost napačnega identificiranja živil iz niza (iz računa).
+#Zivilo je podatkovna baza. 
+#Hrani imena zivil v staticni spremenljivki "Zivilo.zivila" . 
+#V bazi je za vsako zivilo nekaj kljucnih besed po kateri prepoznamo. 
+#Npr. za pšenično moko sta potrebni besedi "pše" in "moka". 
+#Namreč na računih je pogosto prisotno krajšanje besed, saj je prostor omejen. 
+#Potrebno je previdno izbiranje krajših ključnih besed, saj obstaja možnost napačnega identificiranja živil iz niza (iz računa).
 class Zivilo:
     VSA_ZIVILA="vsa_zivila.txt"
     zivila=[]
@@ -208,7 +213,7 @@ class Nakup_zivila:
     def __lt__(self, other):
         return self.datum_roka>other.datum_roka
 
-#Importaj regex za iskanje mase oblike:  številka + "g|G"
+#importaj regex za iskanje mase oblike:  številka + "g|G"
 import re
 def najdi_maso(niz):
     if isinstance(niz, str):
