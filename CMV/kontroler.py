@@ -197,4 +197,4 @@ def dodaj_nakup_zivila():
 
 
 if __name__ == '__main__':
-    bottle.run(host="localhost", port="8080", reloader=True, debug=True, fast=True)
+    bottle.run(host="0.0.0.0", port="8080")
