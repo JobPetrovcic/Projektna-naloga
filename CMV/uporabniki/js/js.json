@@ -1,0 +1,336 @@
+{
+    "uporabnisko_ime": "js",
+    "zasifrirano_geslo": "2238401108$6b695f0053fcbd187531b1c22968b0fedf9745693adb26370943718668458484708d95585c2c3bdd9d8da1ff07455e7384a00506b704abc920086c6a15fe6d31",
+    "nakup": {
+        "nakupljena_zivila": [
+            {
+                "zivilo": {
+                    "ime": "p\u0161eni\u010dna moka",
+                    "kljucne_besede": [
+                        "p\u0161e",
+                        "moka"
+                    ],
+                    "tip": "suh izdelek",
+                    "cas_uporabe": 730
+                },
+                "masa": 535,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2023-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "krompir",
+                    "kljucne_besede": [
+                        "krompir"
+                    ],
+                    "tip": "suh izdelek",
+                    "cas_uporabe": 730
+                },
+                "masa": 5000,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2023-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "olje",
+                    "kljucne_besede": [
+                        "olje"
+                    ],
+                    "tip": "konzervirana hrana",
+                    "cas_uporabe": 1825
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2026-09-17"
+            },
+            {
+                "zivilo": {
+                    "ime": "vino",
+                    "kljucne_besede": [
+                        "vino"
+                    ],
+                    "tip": "pija\u010da",
+                    "cas_uporabe": 365
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2022-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "kivi",
+                    "kljucne_besede": [
+                        "kivi"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "slive",
+                    "kljucne_besede": [
+                        "sliv"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "melancani",
+                    "kljucne_besede": [
+                        "melan"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "paprika",
+                    "kljucne_besede": [
+                        "papr"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "breskve",
+                    "kljucne_besede": [
+                        "breskve"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "avokado",
+                    "kljucne_besede": [
+                        "avokado"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "sok",
+                    "kljucne_besede": [
+                        "sok"
+                    ],
+                    "tip": "pija\u010da",
+                    "cas_uporabe": 365
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2022-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "banane",
+                    "kljucne_besede": [
+                        "banan"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "kefir",
+                    "kljucne_besede": [
+                        "kefir"
+                    ],
+                    "tip": "mle\u010dni izdelek in jajca",
+                    "cas_uporabe": 21
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-10-09"
+            },
+            {
+                "zivilo": {
+                    "ime": "kis",
+                    "kljucne_besede": [
+                        "kis"
+                    ],
+                    "tip": "konzervirana hrana",
+                    "cas_uporabe": 1825
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2026-09-17"
+            },
+            {
+                "zivilo": {
+                    "ime": "jogurt",
+                    "kljucne_besede": [
+                        "jogurt"
+                    ],
+                    "tip": "mle\u010dni izdelek in jajca",
+                    "cas_uporabe": 21
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-10-09"
+            },
+            {
+                "zivilo": {
+                    "ime": "sir",
+                    "kljucne_besede": [
+                        "sir"
+                    ],
+                    "tip": "mle\u010dni izdelek in jajca",
+                    "cas_uporabe": 21
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-10-09"
+            },
+            {
+                "zivilo": {
+                    "ime": "marmelada",
+                    "kljucne_besede": [
+                        "marme"
+                    ],
+                    "tip": "konzervirana hrana",
+                    "cas_uporabe": 1825
+                },
+                "masa": 600,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2026-09-17"
+            },
+            {
+                "zivilo": {
+                    "ime": "pi\u0161\u010dan\u010dje meso",
+                    "kljucne_besede": [
+                        "pi\u0161\u010dan"
+                    ],
+                    "tip": "sve\u017e izdelek",
+                    "cas_uporabe": 3
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-09-21"
+            },
+            {
+                "zivilo": {
+                    "ime": "smetana",
+                    "kljucne_besede": [
+                        "smetan"
+                    ],
+                    "tip": "mle\u010dni izdelek in jajca",
+                    "cas_uporabe": 21
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-10-09"
+            },
+            {
+                "zivilo": {
+                    "ime": "bonboni",
+                    "kljucne_besede": [
+                        "bonb"
+                    ],
+                    "tip": "suh izdelek",
+                    "cas_uporabe": 730
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2023-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "bonboni",
+                    "kljucne_besede": [
+                        "bonb"
+                    ],
+                    "tip": "suh izdelek",
+                    "cas_uporabe": 730
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2023-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "\u010dokolada",
+                    "kljucne_besede": [
+                        "\u010dok"
+                    ],
+                    "tip": "suh izdelek",
+                    "cas_uporabe": 730
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2023-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "keksi",
+                    "kljucne_besede": [
+                        "keks"
+                    ],
+                    "tip": "suh izdelek",
+                    "cas_uporabe": 730
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2023-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "\u010dokolada",
+                    "kljucne_besede": [
+                        "\u010dok"
+                    ],
+                    "tip": "suh izdelek",
+                    "cas_uporabe": 730
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2023-09-18"
+            },
+            {
+                "zivilo": {
+                    "ime": "sir",
+                    "kljucne_besede": [
+                        "sir"
+                    ],
+                    "tip": "mle\u010dni izdelek in jajca",
+                    "cas_uporabe": 21
+                },
+                "masa": null,
+                "datum_nakupa": "2021-09-18",
+                "datum_roka": "2021-10-09"
+            }
+        ],
+        "datum_ustvarjanja": "2021-09-18"
+    },
+    "stevilo_racunov": 1
+}

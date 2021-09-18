@@ -1,8 +1,9 @@
 import os
 import io
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd=# tukaj dajte pot do tesseract knjižnice
-#primer: r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd=r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe' #primer:
+# tukaj dajte pot do tesseract knjižnice
+
 from PIL import Image
 from wand.image import Image as WandImage
 

@@ -19,8 +19,8 @@
                         %end
                     </select>
                     <label>masa:</label>
-                    %from model import NI_DEFINIRANO
-                    <input type="number" name="masa" placeholder="{{NI_DEFINIRANO}}">
+
+                    <input type="number" name="masa">
 
                     <input type="submit" value="dodaj">
                 </form>
@@ -69,10 +69,11 @@
                     </a>
                 </td>
                 <td>{{nakupljeno_zivilo.zivilo.ime}}</td>
-                <td>{{nakupljeno_zivilo.masa}}
-                    %from model import NI_DEFINIRANO
-                    %if nakupljeno_zivilo.masa!=NI_DEFINIRANO:
-                        g
+                <td>
+                    %if nakupljeno_zivilo.masa is None:
+                        -----
+                    %else:
+                        {{nakupljeno_zivilo.masa}}g
                     %end
                 </td>
                 <td>{{str(nakupljeno_zivilo.datum_nakupa)}}</td>

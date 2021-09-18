@@ -1,4 +1,4 @@
-from model import nakup_iz_vrstic, Nakup_zivila, Zivilo, preveri_maso, NI_DEFINIRANO
+from model import Nakup, Nakup_zivila, Zivilo, preveri_maso
 import bottle
 import os
 
@@ -144,7 +144,7 @@ def dodaj_racun_post():
     uporabnik.stevilo_racunov+=1
 
     #dodaj prepoznana živila v skupen nakup uporabnik
-    dodaj_najdeno=nakup_iz_vrstic(prebran_racun)
+    dodaj_najdeno=Nakup.nakup_iz_vrstic(prebran_racun)
     uporabnik.nakup+=dodaj_najdeno
     shrani_stanje(uporabnik)
 
@@ -172,11 +172,12 @@ def odstrani_nakupljeno():
 
 @bottle.get("/dodaj_nakup_zivila/")
 def dodaj_nakup_zivila():
-    uporabnik=trenutni_uporabnik()
+    uporabnik = trenutni_uporabnik()
+    
     #dobi izbrano iz "select"
-    izbrano_zivilo=Zivilo.dobi_zivilo_iz_imena(bottle.request.query.getunicode("izbrano_zivilo"))
+    izbrano_zivilo = Zivilo.dobi_zivilo_iz_imena(bottle.request.query.getunicode("izbrano_zivilo"))
 
-    masa=bottle.request.query.getunicode("masa")
+    masa = bottle.request.query.getunicode("masa")
 
     #preveri maso 
     
@@ -185,7 +186,7 @@ def dodaj_nakup_zivila():
         uporabnik.nakup+=Nakup_zivila(izbrano_zivilo, masa)
         shrani_stanje(uporabnik)
         bottle.redirect('/seznam/')
-    elif masa=="":
+    elif masa == "":
         uporabnik.nakup+=Nakup_zivila(izbrano_zivilo)
         shrani_stanje(uporabnik)
         bottle.redirect('/seznam/')
