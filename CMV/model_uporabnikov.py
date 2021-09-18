@@ -5,21 +5,27 @@ import os
 
 import model
 
+
 class Uporabnik:
 
-    def __init__(self, uporabnisko_ime, zasifrirano_geslo, nakup, stevilo_racunov=0):
+    def __init__(
+            self,
+            uporabnisko_ime,
+            zasifrirano_geslo,
+            nakup,
+            stevilo_racunov=0):
         self.uporabnisko_ime = uporabnisko_ime
         self.zasifrirano_geslo = zasifrirano_geslo
         self.nakup = nakup
-        self.stevilo_racunov=stevilo_racunov
-    
+        self.stevilo_racunov = stevilo_racunov
+
     @staticmethod
     def prijava(uporabnisko_ime, geslo_v_cistopisu):
         uporabnik = Uporabnik.iz_datoteke(uporabnisko_ime)
         if uporabnik is None:
             raise ValueError("Uporabniško ime ne obstaja")
         elif uporabnik.preveri_geslo(geslo_v_cistopisu):
-            return uporabnik        
+            return uporabnik
         else:
             raise ValueError("Geslo je napačno")
 
@@ -27,10 +33,10 @@ class Uporabnik:
     def ustvari_mapo(uporabnisko_ime):
         os.mkdir(f"uporabniki/{uporabnisko_ime}")
         os.mkdir(f"uporabniki/{uporabnisko_ime}/slike_racunov")
-    
+
     @staticmethod
     def ime_racuna(uporabnisko_ime, indeks_racuna, koncnica):
-        if koncnica[0]=='.':
+        if koncnica[0] == '.':
             return f"uporabniki/{uporabnisko_ime}/slike_racunov/racun{indeks_racuna}{koncnica}"
         else:
             return f"uporabniki/{uporabnisko_ime}/slike_racunov/racun{indeks_racuna}.{koncnica}"
@@ -42,7 +48,10 @@ class Uporabnik:
         else:
             Uporabnik.ustvari_mapo(uporabnisko_ime)
             zasifrirano_geslo = Uporabnik._zasifriraj_geslo(geslo_v_cistopisu)
-            uporabnik = Uporabnik(uporabnisko_ime, zasifrirano_geslo, model.Nakup())
+            uporabnik = Uporabnik(
+                uporabnisko_ime,
+                zasifrirano_geslo,
+                model.Nakup())
             uporabnik.v_datoteko()
             return uporabnik
 
@@ -54,13 +63,12 @@ class Uporabnik:
         h.update(posoljeno_geslo.encode(encoding="utf-8"))
         return f"{sol}${h.hexdigest()}"
 
-
     def v_slovar(self):
         return {
             "uporabnisko_ime": self.uporabnisko_ime,
             "zasifrirano_geslo": self.zasifrirano_geslo,
             "nakup": self.nakup.v_slovar(),
-            "stevilo_racunov":self.stevilo_racunov
+            "stevilo_racunov": self.stevilo_racunov
         }
 
     def v_datoteko(self):
@@ -71,8 +79,8 @@ class Uporabnik:
 
     def preveri_geslo(self, geslo_v_cistopisu):
         sol, _ = self.zasifrirano_geslo.split("$")
-        return self.zasifrirano_geslo == Uporabnik._zasifriraj_geslo(geslo_v_cistopisu, sol)
-
+        return self.zasifrirano_geslo == Uporabnik._zasifriraj_geslo(
+            geslo_v_cistopisu, sol)
 
     @staticmethod
     def ime_uporabnikove_datoteke(uporabnisko_ime):
@@ -84,7 +92,11 @@ class Uporabnik:
         zasifrirano_geslo = slovar["zasifrirano_geslo"]
         stevilo_racunov = slovar["stevilo_racunov"]
         nakup = model.Nakup.iz_slovarja(slovar["nakup"])
-        return Uporabnik(uporabnisko_ime, zasifrirano_geslo, nakup, stevilo_racunov)
+        return Uporabnik(
+            uporabnisko_ime,
+            zasifrirano_geslo,
+            nakup,
+            stevilo_racunov)
 
     @staticmethod
     def iz_datoteke(uporabnisko_ime):
